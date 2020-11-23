@@ -1,0 +1,247 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+
+body{
+	font-size: 14px;
+	line-height: 24px;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+h1,h2,h3,h4,h5,h6{
+ font-family: 'Lato', sans-serif;
+}
+
+a,a:hover{
+	text-decoration: none;
+
+}
+/* reen basic code start here */
+
+
+/* header section start*/
+
+.header-section{
+	width: 100%;
+
+}
+.top-header{
+	width: 100%;
+	background: #f5f7fa;
+	padding: 5px 0px;
+
+}
+.info-item{
+	width: 100%;
+}
+.info-iteam ul{
+	padding: 0px;
+	margin: 0px;
+}
+
+.info-iteam ul li{
+	list-style: none;
+	display: inline-block;
+	margin-right: 10px;
+
+}
+.info-iteam ul li a{
+	font-size: 14px;
+	font-weight: 600;
+	color: #506a85;
+}
+.info-iteam .fa{
+	margin-right: 5px;
+}
+
+/* social icon style start */
+.social-icon{
+	width: 100%;
+}
+.social-icon ul{
+	padding: 0px;
+	margin: 0px;
+	text-align: right;
+}
+.social-icon ul li{
+	display: inline-block;
+	list-style: none;
+	
+	margin-right: 10px;
+
+	
+}
+.social-icon ul li a{
+	font-size: 14px;
+	font-weight: 600;
+	margin-left: 10px;
+		color: #506a85;
+	transition: 1s;
+}
+
+.social-icon ul li a:hover{
+	color: #00bc9c;
+}
+
+/* socail icon style end */
+
+/* main menu css style start*/
+.main-menu{
+	width: 100%;
+	padding: 5px 0px;
+
+}
+
+.main-menu .navbar-brand{
+	margin-right: 40px;
+}
+.main-menu .bg-light{
+	background: transparent !important;
+}
+.main-menu .navbar-light .navbar-nav .nav-link{
+	color: #506a85;
+	font-size: 14px;
+	text-transform: uppercase;
+	font-weight: 700;
+	margin: 0px 15px;
+	transition: 1s;
+}
+.main-menu .navbar-light .navbar-nav .nav-link:hover{
+	color: #00bc9c;
+}
+
+.main-menu .navbar-light .navbar-nav .active>.nav-link{
+	color: #00bc9c;
+}
+
+.main-menu .fa-search{
+	color: #506a85;
+	font-size: 14px;
+}
+
+/* main menu css style end */
+
+/* header section end*/
+
+/* Slider section start*/
+.slider{
+	width: 100%;
+}
+.slider .carousel-caption{
+	bottom: 26%;
+}
+
+.slider .carousel-caption h2 {
+    font-size: 56px;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+.slider .carousel-caption p{
+	 color: #a3b1bf;
+    font-size: 14px;
+    line-height: 27px;
+    font-weight: 600;
+	
+}
+.slider .carousel-caption .btn-info{
+     background: #00bc9c;
+    color: white;
+    text-transform: uppercase;
+    margin: 10px 10px;
+    padding: 13px 31px;
+    letter-spacing: 3px;
+    border: 1px solid #00bc9c;
+    border-radius: 7px;
+    transition: 1s;
+}
+.slider .carousel-caption .btn-info:hover,.slider .carousel-caption .btn-info:focus{
+    background: transparent;
+        color: #00bc9c;
+    border: 1px solid #00bc9c;
+    border-radius: 7px;
+}
+
+
+
+/* Slider section end */
+
+/* who we section start*/
+.who-we-section{
+	width: 100%;
+}
+.who-we-section .title{
+	width: 100%;
+}
+.who-we-section .title h2{
+   font-size: 33px;
+    font-weight: 400;
+    color: #506a85;
+    margin-top: 60px;
+}
+.who-we-section .title p{
+     color: #506a85;
+    font-size: 14px;
+    line-height: 2;
+    font-weight: 500;
+    margin-top: 16px;
+}
+
+.who-we-section .media{
+	width: 100%;
+	padding: 21px 9px;
+}
+.who-we-section .media  .media-body .mt-0{
+     font-size: 21px;
+    letter-spacing: 4px;
+    font-weight: 600;
+    color: #5f768e;
+}
+.who-we-section .media .media-body p{
+    font-size: 14px;
+    font-weight: 500;
+    color: #5f768e;
+    padding-top: 10px;
+}
+
+/* wno we section end */
+
+
+/*latest work section start*/
+
+.latest-work-section{
+	width: 100%;
+	background: #f2f5f7;
+}
+
+.latest-work-section .title h2{
+      font-size: 33px;
+    font-weight: 700;
+    color: #506a85;
+    margin-top: 60px;
+
+}
+
+.latest-work-section .title p{
+     color: #506a85;
+    font-size: 14px;
+    line-height: 2;
+    font-weight: 500;
+    margin-top: 16px;
+}
+
+.latest-work-section .card{
+  margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.latest-work-section .card .card-body{
+
+}
+.latest-work-section .card .card-body .card-title{
+	color: #506a85;
+}
+
+.latest-work-section .card .card-body .card-text{
+   color: #506a85;
+}
+/*latest work section end */
