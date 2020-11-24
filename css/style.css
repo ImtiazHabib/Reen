@@ -234,9 +234,8 @@ a,a:hover{
     margin-bottom: 30px;
 }
 
-.latest-work-section .card .card-body{
 
-}
+
 .latest-work-section .card .card-body .card-title{
 	color: #506a85;
 }
@@ -244,4 +243,239 @@ a,a:hover{
 .latest-work-section .card .card-body .card-text{
    color: #506a85;
 }
+
+.latest-work-section .owl-carousel{
+	padding-top: 15px;
+	padding-bottom: 20px;
+}
+ .latest-work-section .owl-theme .owl-nav.disabled+.owl-dots {
+    margin-top: 31px;
+    margin-bottom: 25px;
+}
+.latest-work-section .owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+    background: #00bc9c;
+}
+
 /*latest work section end */
+/*get in touch section start*/
+.get-in-touch-section{
+	width: 100%;
+	padding-top: 10px;
+
+}
+.get-in-touch-section h2{
+  color: #506a85;
+    font-size: 41px;
+    text-align: center;
+    font-weight: 600;
+    padding-top: 51px;
+    padding-bottom: 11px;
+}
+.get-in-touch-section p{
+	color: #506a85;
+    font-size: 15px;
+    font-weight: 500;
+    text-align: center;
+    padding-bottom: 10px;
+}
+.get-in-touch-section .btn-info{
+	background: #00bc9c;
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 40px;
+    margin-left: 172px;
+    letter-spacing: 3px;
+    border: 1px solid #00bc9c;
+    border-radius: 7px;
+    transition: 1s;
+}
+	
+
+.get-in-touch-section .btn-info:hover{
+
+	 background: transparent;
+        color: #00bc9c;
+    border: 1px solid #00bc9c;
+    border-radius: 7px;
+}
+
+/*get in touch section end*/
+
+/*footer section start*/
+.footer-section{
+	width: 100%;
+}
+/*top footer*/
+.footer-section .top-footer{
+	width: 100%;
+	padding: 80px 0px;
+	background: #2f4052;
+}
+.footer-section .top-footer .who-we-are {
+	width: 100%;
+	
+}
+.footer-section .top-footer .who-we-are h2{
+     font-size: 33px;
+    color: white;
+    font-weight: 400;
+    padding-bottom: 16px;
+    text-transform: uppercase;
+}
+.footer-section .top-footer .who-we-are p{
+    color: #95a3b2;
+    margin-top: 18px;
+    font-size: 16px;
+    font-weight: 500;
+}
+.footer-section .top-footer .who-we-are a{
+	color: #95a3b2;
+    font-size: 22px;
+    font-weight: 600;
+    letter-spacing: 2px
+}
+.footer-section .top-footer .who-we-are a:hover{
+	color: white;
+}
+
+
+
+.footer-section .top-footer .who-we-are .fa{
+	margin-left: 10px;
+	margin-top: 5px;
+}
+.footer-section .top-footer .latest-task{
+	width: 100%;
+}
+
+.footer-section .top-footer .latest-task h2{
+   font-size: 33px;
+    color: white;
+    font-weight: 400;
+    padding-bottom: 16px;
+    text-transform: uppercase;
+}
+
+ .footer-section .top-footer .latest-task .row{
+	    margin-right: -49px;
+    margin-left: -3px;
+}
+
+
+.footer-section .top-footer .latest-task .row .mb-4, .my-4 {
+    margin-bottom: 0.5rem!important;
+    padding: 3px;
+}
+.footer-section .top-footer .latest-task .row .card{
+	border: 1px solid #2f4052;
+}
+.footer-section .top-footer .get-in-touch {
+	width: 100%;
+	margin-left: 59px;
+	
+}
+
+.footer-section .top-footer .get-in-touch h2{
+  font-size: 33px;
+    color: white;
+    font-weight: 400;
+    padding-bottom: 16px;
+    text-transform: uppercase;
+}
+.footer-section .top-footer .get-in-touch p{
+	 color: #95a3b2;
+    margin-top: 18px;
+    font-size: 16px;
+    font-weight: 500;
+}
+.footer-section .top-footer .get-in-touch li{
+	list-style: none;
+}
+.footer-section .top-footer .get-in-touch a{
+	color: #95a3b2;
+    font-size: 16px;
+    
+    letter-spacing: 2px
+}
+.footer-section .top-footer .free-update{
+	width: 100%;
+   margin-left: 59px;
+}
+.footer-section .top-footer .free-update h2{
+	 font-size: 33px;
+    color: white;
+    font-weight: 400;
+    padding-bottom: 16px;
+    text-transform: uppercase;
+}
+.footer-section .top-footer .free-update p{
+	color: #95a3b2;
+    margin-top: 18px;
+    font-size: 16px;
+    font-weight: 500;
+}
+.footer-section .form-control{
+	background: #4e5c6c;
+    border: 1px solid #4e5c6c;
+    font-size: 19px;
+    height: 41px;
+    width: 258px;
+    color: white;
+}
+.footer-section .top-footer .free-update .form-inline{
+   position: relative;
+
+	
+}
+.footer-section .top-footer .free-update .form-inline .btn-primary{
+   position: absolute;
+   top:0;
+   right: 0;
+       background: #00bc9c;
+transition: 1s;
+
+}
+.footer-section .top-footer .free-update .form-inline .btn-primary:hover,.footer-section .top-footer .free-update .form-inline .btn-primar:focus{
+	 
+  background: transparent;
+  color: #00bc9c;
+      
+
+}
+.footer-section .bottom-footer{
+	width: 100%;
+	background: #283645;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+.footer-section .bottom-footer h2{
+       font-size: 16px;
+    margin-top: 8px;
+}
+.footer-section .bottom-footer ul{
+   display: block;
+   margin-top: 5px;
+}
+.footer-section .bottom-footer li{
+	display: inline-block;
+
+}
+.footer-section .bottom-footer a{
+      color: #5e6c7a;
+    font-size: 17px;
+    margin-left: 19px;
+    transition: 1s;
+}
+.footer-section .bottom-footer a:hover{
+	color: #00bc9c;
+
+}
+
+
+/*footer section end*/
+
+
+/* project end */
+
+
